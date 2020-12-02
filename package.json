@@ -17,6 +17,7 @@
       "<rootDir>/setupJest.ts"
     ],
     "testPathIgnorePatterns": [
+      "node_modules",
       "<rootDir>/node_modules/",
       "<rootDir>/dist/",
       "<rootDir>/src/test.ts",
