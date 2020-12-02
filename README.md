@@ -420,6 +420,8 @@ npm install cypress --save-dev
 yarn add cypress --dev
 ```
 
+If you get an error try installing it again.
+
 ### Create Cypress Open Command
 
 Replace the e2e with a cypress open command in the scripts section of our package.json
@@ -440,7 +442,7 @@ Replace the e2e with a cypress open command in the scripts section of our packag
     ],
 ```
 
-### Modify tsconfig.base.json
+### Modify tsconfig.json
 
 Add "types": ["cypress"], to the tsconfig.json file.
 
@@ -491,10 +493,10 @@ describe('initial-page', () => {
     cy.visit("localhost:4200/");
   })
 
-  it(`has title 'angular-advisors-mirage'`, () => {
-    cy.contains('angular-advisors-mirage');
-    cy.get('h1').should('contain', 'angular-advisors-mirage');
-    cy.title().should('eq', 'AngularAdvisorsMirage');
+  it(`has title 'mbedcode'`, () => {
+    cy.contains('mbedcode');
+    cy.get('h1').should('contain', 'mbedcode');
+    cy.title().should('eq', 'Mbedcode');
   })
 
 })
