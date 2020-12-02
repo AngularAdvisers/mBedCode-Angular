@@ -458,7 +458,7 @@ Add "types": ["cypress"], to the tsconfig.json file.
 }
 ```
 
-Add Exclude at bottom
+In tsconfig.app.json add Exclude at bottom 
 
 ```
   "exclude": [
