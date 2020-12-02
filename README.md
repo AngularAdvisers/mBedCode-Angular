@@ -378,17 +378,17 @@ describe('AppComponent', () => {
       expect(app).toBeTruthy();
     });
   
-    it(`should have as title 'angular-advisors-mirage'`, () => {
+    it(`should have as title 'mbedcode'`, () => {
         const fixture = TestBed.createComponent(AppComponent);
         const app = fixture.debugElement.componentInstance;
-        expect(app.title).toEqual('angular-advisors-mirage');
+        expect(app.title).toEqual('mbedcode');
       });
 
     it('should render title', () => {
       const fixture = TestBed.createComponent(AppComponent);
       fixture.detectChanges();
       const compiled = fixture.debugElement.nativeElement;
-      expect(compiled.querySelector('.content span').textContent).toContain('angular-advisors-mirage app is running!');
+      expect(compiled.querySelector('.content span').textContent).toContain('mbedcode app is running!');
     });
   });  
 ```
