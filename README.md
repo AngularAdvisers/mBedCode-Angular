@@ -745,13 +745,13 @@ Add the firebase configuration for development
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: 'AIzaSyAWAAlHm1XmeqcBVPVk-JJ0KYKnND9ic6s',
-    authDomain: 'dev-angular-advisors.firebaseapp.com',
-    databaseURL: 'https://dev-angular-advisors.firebaseio.com',
-    projectId: 'dev-angular-advisors',
-    storageBucket: 'dev-angular-advisors.appspot.com',
-    messagingSenderId: '753899157910',
-    appId: '1:753899157910:web:6825f998b396046b'
+    apiKey: 'AIzaSyAf15yh5rS5Wt7tnQsNVp7e1ByjhvPB34s',
+    authDomain: 'prod-mbed-code.firebaseapp.com',
+    databaseURL: 'https://prod-mbed-code.firebaseio.com',
+    projectId: 'prod-mbed-code',
+    storageBucket: 'prod-mbed-code.appspot.com',
+    messagingSenderId: '748907407036',
+    appId: '1:748907407036:web:10a4fdf5fd100b973012b9'
   }  
 };
 
